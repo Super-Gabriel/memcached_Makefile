@@ -39,6 +39,7 @@ checkout: clone
 deps:
 	@echo "Instalando dependencias..."
 	sudo apt update && sudo apt install -y \
+		tree \
 		pkg-config \
 		libssl-dev \
 		libevent-dev \
