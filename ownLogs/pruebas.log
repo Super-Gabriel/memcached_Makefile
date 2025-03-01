@@ -1,0 +1,52 @@
+Iniciando memcached...
+
+Proceso de memcached:
+24553
+
+Estado del proceso:
+  24553 ?        Ssl    0:00 memcached --daemon
+
+Verificando puerto 11211:
+(Not all processes could be identified, non-owned process info
+ will not be shown, you would have to be root to see it all.)
+tcp        0      0 0.0.0.0:11211           0.0.0.0:*               LISTEN      24553/memcached     
+tcp6       0      0 :::11211                :::*                    LISTEN      24553/memcached     
+
+Test de conexión con nc:
+localhost [127.0.0.1] 11211 (?) open
+
+Obteniendo versión:
+VERSION 1.6.37
+
+
+Estableciendo valor:
+STORED
+
+Obteniendo valor:
+
+VALUE foo 0 3
+bar
+END
+
+
+Eliminando valor:
+DELETED
+
+Limpiando todos los valores:
+
+OK
+
+
+Intentando obtener valor eliminado:
+END
+
+
+Deteniendo memcached:
+Código de salida: 0
+
+Verificación final de puerto:
+(Not all processes could be identified, non-owned process info
+ will not be shown, you would have to be root to see it all.)
+
+Verificación final del proceso:
+No hay procesos activos

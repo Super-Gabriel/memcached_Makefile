@@ -10,6 +10,7 @@ LOG_MAKE_INSTALL = ../logs/make-install.log
 LOG_MEMC_HELP = ../logs/memcached-help.log
 
 .PHONY: all clean
+.PHONY: test
 
 all: install
 	@echo "\n=== Verificación final ==="
@@ -79,3 +80,8 @@ install: build
 clean:
 	rm -rf memcached
 	@echo "Directorio de instalación: $(PREFIX) (no se borra automáticamente)"
+
+test:
+	@chmod +x pruebas.sh
+	@./pruebas.sh
+	@echo "pruebas ejecutadas, ver logs en pruebas.log"
