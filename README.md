@@ -11,4 +11,5 @@ Debemos agregar el directorio home/local/bin a la variable de entorno PATH:
 
 Debemos situarnos en el directorio del archivo `makefile`
 
+- el archivo está en src: `cd src`
 - ejecutar `make install`
