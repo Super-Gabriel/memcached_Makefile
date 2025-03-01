@@ -2,13 +2,12 @@
 REPO = https://github.com/memcached/memcached.git
 VERSION = 1.6.37
 PREFIX = $(HOME)/local
-LOG_AUTOGEN = autogen.log
-LOG_CONF_HELP = configure-help.log
-LOG_CONF = configure.log
-LOG_MAKE = make.log
-LOG_MAKE_INSTALL = make-install.log
-LOG_MEMC_HELP = memcached-help.log
-LOG_CLEAN = clean.log
+LOG_AUTOGEN = ../logs/autogen.log
+LOG_CONF_HELP = ../logs/configure-help.log
+LOG_CONF = ../logs/configure.log
+LOG_MAKE = ../logs/make.log
+LOG_MAKE_INSTALL = ../logs/make-install.log
+LOG_MEMC_HELP = ../logs/memcached-help.log
 
 .PHONY: all clean
 
@@ -78,5 +77,5 @@ install: build
 
 # Limpieza
 clean:
-	rm -rf memcached $(LOG_CLEAN)
+	rm -rf memcached
 	@echo "Directorio de instalación: $(PREFIX) (no se borra automáticamente)"

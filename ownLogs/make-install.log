@@ -1,0 +1,48 @@
+make[1]: Entering directory '/home/g4br13l/Documents/sistemasOperativos/practica01/memcached_Makefile/files/memcached'
+make  install-recursive
+make[2]: Entering directory '/home/g4br13l/Documents/sistemasOperativos/practica01/memcached_Makefile/files/memcached'
+Making install in doc
+make[3]: Entering directory '/home/g4br13l/Documents/sistemasOperativos/practica01/memcached_Makefile/files/memcached/doc'
+make  install-am
+make[4]: Entering directory '/home/g4br13l/Documents/sistemasOperativos/practica01/memcached_Makefile/files/memcached/doc'
+make[5]: Entering directory '/home/g4br13l/Documents/sistemasOperativos/practica01/memcached_Makefile/files/memcached/doc'
+make[5]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/home/g4br13l/local/share/man/man1'
+ /usr/bin/install -c -m 644 memcached.1 '/home/g4br13l/local/share/man/man1'
+make[5]: Leaving directory '/home/g4br13l/Documents/sistemasOperativos/practica01/memcached_Makefile/files/memcached/doc'
+make[4]: Leaving directory '/home/g4br13l/Documents/sistemasOperativos/practica01/memcached_Makefile/files/memcached/doc'
+make[3]: Leaving directory '/home/g4br13l/Documents/sistemasOperativos/practica01/memcached_Makefile/files/memcached/doc'
+make[3]: Entering directory '/home/g4br13l/Documents/sistemasOperativos/practica01/memcached_Makefile/files/memcached'
+make[4]: Entering directory '/home/g4br13l/Documents/sistemasOperativos/practica01/memcached_Makefile/files/memcached'
+ /usr/bin/mkdir -p '/home/g4br13l/local/bin'
+  /usr/bin/install -c memcached '/home/g4br13l/local/bin'
+ /usr/bin/mkdir -p '/home/g4br13l/local/include/memcached'
+ /usr/bin/install -c -m 644 protocol_binary.h xxhash.h '/home/g4br13l/local/include/memcached'
+make[4]: Leaving directory '/home/g4br13l/Documents/sistemasOperativos/practica01/memcached_Makefile/files/memcached'
+make[3]: Leaving directory '/home/g4br13l/Documents/sistemasOperativos/practica01/memcached_Makefile/files/memcached'
+make[2]: Leaving directory '/home/g4br13l/Documents/sistemasOperativos/practica01/memcached_Makefile/files/memcached'
+make[1]: Leaving directory '/home/g4br13l/Documents/sistemasOperativos/practica01/memcached_Makefile/files/memcached'
+make[1]: Entering directory '/home/g4br13l/Documents/sistemasOperativos/practica01/memcached_Makefile/files/memcached'
+make  install-recursive
+make[2]: Entering directory '/home/g4br13l/Documents/sistemasOperativos/practica01/memcached_Makefile/files/memcached'
+Making install in doc
+make[3]: Entering directory '/home/g4br13l/Documents/sistemasOperativos/practica01/memcached_Makefile/files/memcached/doc'
+make  install-am
+make[4]: Entering directory '/home/g4br13l/Documents/sistemasOperativos/practica01/memcached_Makefile/files/memcached/doc'
+make[5]: Entering directory '/home/g4br13l/Documents/sistemasOperativos/practica01/memcached_Makefile/files/memcached/doc'
+make[5]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/home/g4br13l/local/share/man/man1'
+ /usr/bin/install -c -m 644 memcached.1 '/home/g4br13l/local/share/man/man1'
+make[5]: Leaving directory '/home/g4br13l/Documents/sistemasOperativos/practica01/memcached_Makefile/files/memcached/doc'
+make[4]: Leaving directory '/home/g4br13l/Documents/sistemasOperativos/practica01/memcached_Makefile/files/memcached/doc'
+make[3]: Leaving directory '/home/g4br13l/Documents/sistemasOperativos/practica01/memcached_Makefile/files/memcached/doc'
+make[3]: Entering directory '/home/g4br13l/Documents/sistemasOperativos/practica01/memcached_Makefile/files/memcached'
+make[4]: Entering directory '/home/g4br13l/Documents/sistemasOperativos/practica01/memcached_Makefile/files/memcached'
+ /usr/bin/mkdir -p '/home/g4br13l/local/bin'
+  /usr/bin/install -c memcached '/home/g4br13l/local/bin'
+ /usr/bin/mkdir -p '/home/g4br13l/local/include/memcached'
+ /usr/bin/install -c -m 644 protocol_binary.h xxhash.h '/home/g4br13l/local/include/memcached'
+make[4]: Leaving directory '/home/g4br13l/Documents/sistemasOperativos/practica01/memcached_Makefile/files/memcached'
+make[3]: Leaving directory '/home/g4br13l/Documents/sistemasOperativos/practica01/memcached_Makefile/files/memcached'
+make[2]: Leaving directory '/home/g4br13l/Documents/sistemasOperativos/practica01/memcached_Makefile/files/memcached'
+make[1]: Leaving directory '/home/g4br13l/Documents/sistemasOperativos/practica01/memcached_Makefile/files/memcached'
